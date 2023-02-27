@@ -1,0 +1,30 @@
+url: "https://notes.hzz.sh"
+baseurl: ""
+
+# just-the-docs Theme
+remote_theme: just-the-docs/just-the-docs
+search_enabled: true
+
+# GitHub Pages
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+exclude:
+  - readme.md
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
