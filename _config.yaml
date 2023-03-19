@@ -1,6 +1,14 @@
 url: "https://notes.hzz.sh"
 baseurl: ""
 
+defaults:
+  - scope:
+      path: "notes"
+      type: pages
+    values:
+      layout: default
+      permalink: /:basename
+
 # just-the-docs Theme
 remote_theme: just-the-docs/just-the-docs
 logo: "/assets/icons/bookmark.svg"
