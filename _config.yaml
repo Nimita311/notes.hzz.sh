@@ -3,7 +3,13 @@ baseurl: ""
 
 # just-the-docs Theme
 remote_theme: just-the-docs/just-the-docs
-search_enabled: true
+logo: "/assets/icons/bookmark.svg"
+favicon_ico: "/assets/icons/bookmark.svg"
+nav_external_links:
+  - title: About the author
+    url: https://hzz.sh
+  - title: Contribute on GitHub
+    url: https://github.com/Nimita311/notes.hzz.sh
 
 # GitHub Pages
 lsi: false
